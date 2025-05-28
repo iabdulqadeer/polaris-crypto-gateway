@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <button 
-                  onClick={() => navigate('/#features')}
+                  onClick={() => navigate('/features')}
                   className="text-secondary-300 hover:text-white transition-colors"
                 >
                   Features
@@ -33,17 +33,27 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => navigate('/#faq')}
+                  onClick={() => navigate('/faq')}
                   className="text-secondary-300 hover:text-white transition-colors"
                 >
                   FAQ
                 </button>
               </li>
               <li>
-                <span className="text-secondary-300">Security</span>
+                <button 
+                  onClick={() => navigate('/security')}
+                  className="text-secondary-300 hover:text-white transition-colors"
+                >
+                  Security
+                </button>
               </li>
               <li>
-                <span className="text-secondary-300">Compliance</span>
+                <button 
+                  onClick={() => navigate('/compliance')}
+                  className="text-secondary-300 hover:text-white transition-colors"
+                >
+                  Compliance
+                </button>
               </li>
             </ul>
           </div>
@@ -54,7 +64,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <button 
-                  onClick={() => navigate('/privacy')}
+                  onClick={() => navigate('/privacy-policy')}
                   className="text-secondary-300 hover:text-white transition-colors"
                 >
                   Privacy Policy
@@ -62,17 +72,27 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => navigate('/terms')}
+                  onClick={() => navigate('/terms-and-conditions')}
                   className="text-secondary-300 hover:text-white transition-colors"
                 >
                   Terms & Conditions
                 </button>
               </li>
               <li>
-                <span className="text-secondary-300">Cookie Policy</span>
+                <button 
+                  onClick={() => navigate('/cookie-policy')}
+                  className="text-secondary-300 hover:text-white transition-colors"
+                >
+                  Cookie Policy
+                </button>
               </li>
               <li>
-                <span className="text-secondary-300">GDPR Compliance</span>
+                <button 
+                  onClick={() => navigate('/gdpr-compliance')}
+                  className="text-secondary-300 hover:text-white transition-colors"
+                >
+                  GDPR Compliance
+                </button>
               </li>
             </ul>
           </div>
@@ -87,6 +107,12 @@ const Footer = () => {
               >
                 support@polaris.io
               </a>
+              <button 
+                onClick={() => navigate('/contact')}
+                className="text-secondary-300 hover:text-white transition-colors block"
+              >
+                Contact Form
+              </button>
               <div className="text-secondary-400">
                 Licensed in Poland
               </div>

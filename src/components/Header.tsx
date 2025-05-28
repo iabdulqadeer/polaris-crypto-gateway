@@ -35,22 +35,22 @@ const Header = () => {
               Home
             </button>
             <button 
-              onClick={() => handleNavigation('/#features')}
+              onClick={() => handleNavigation('/features')}
               className="text-secondary-700 hover:text-primary-900 font-medium transition-colors"
             >
               Features
             </button>
             <button 
-              onClick={() => handleNavigation('/#faq')}
+              onClick={() => handleNavigation('/faq')}
               className="text-secondary-700 hover:text-primary-900 font-medium transition-colors"
             >
               FAQ
             </button>
             <button 
-              onClick={() => handleNavigation('/legal')}
+              onClick={() => handleNavigation('/security')}
               className="text-secondary-700 hover:text-primary-900 font-medium transition-colors"
             >
-              Legal
+              Security
             </button>
           </nav>
 
@@ -97,22 +97,22 @@ const Header = () => {
                 Home
               </button>
               <button 
-                onClick={() => handleNavigation('/#features')}
+                onClick={() => handleNavigation('/features')}
                 className="block w-full text-left px-3 py-2 text-secondary-700 hover:text-primary-900 hover:bg-primary-50 rounded-md"
               >
                 Features
               </button>
               <button 
-                onClick={() => handleNavigation('/#faq')}
+                onClick={() => handleNavigation('/faq')}
                 className="block w-full text-left px-3 py-2 text-secondary-700 hover:text-primary-900 hover:bg-primary-50 rounded-md"
               >
                 FAQ
               </button>
               <button 
-                onClick={() => handleNavigation('/legal')}
+                onClick={() => handleNavigation('/security')}
                 className="block w-full text-left px-3 py-2 text-secondary-700 hover:text-primary-900 hover:bg-primary-50 rounded-md"
               >
-                Legal
+                Security
               </button>
               <div className="flex flex-col space-y-2 pt-2">
                 <Button variant="ghost" className="justify-start">Login</Button>
