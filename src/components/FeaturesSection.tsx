@@ -77,13 +77,16 @@ const FeaturesSection = () => {
               <span className="text-sm font-medium text-secondary-700">Visa</span>
             </div>
             
-            {/* MasterCard with official overlapping circles */}
+            {/* MasterCard with official overlapping circles and wordmark */}
             <div className="flex items-center space-x-3 px-4 py-2 bg-secondary-50 rounded-lg">
-              <div className="relative w-10 h-6 flex items-center justify-center">
-                <div className="absolute w-4 h-4 bg-red-500 rounded-full left-0"></div>
-                <div className="absolute w-4 h-4 bg-yellow-400 rounded-full right-0"></div>
+              <div className="relative w-8 h-8 flex items-center justify-center">
+                {/* Official MasterCard overlapping circles */}
+                <div className="absolute w-5 h-5 bg-red-500 rounded-full" style={{left: '0px'}}></div>
+                <div className="absolute w-5 h-5 bg-yellow-400 rounded-full opacity-90" style={{left: '12px'}}></div>
               </div>
-              <span className="text-sm font-medium text-secondary-700">mastercard</span>
+              <span className="text-sm font-medium text-black" style={{fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, sans-serif', letterSpacing: '-0.02em'}}>
+                mastercard
+              </span>
             </div>
             
             {/* SEPA */}
