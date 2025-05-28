@@ -1,4 +1,3 @@
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Shield, Lock, Eye, AlertTriangle, Key, Server } from 'lucide-react';
@@ -105,7 +104,6 @@ const Security = () => {
                 <h3 className="text-lg font-semibold text-secondary-900 mb-3">Security Certifications</h3>
                 <ul className="space-y-2 text-secondary-600">
                   <li className="flex items-center"><div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>SOC 2 Type II</li>
-                  <li className="flex items-center"><div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>ISO 27001</li>
                   <li className="flex items-center"><div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>PCI DSS Level 1</li>
                   <li className="flex items-center"><div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>Regular Penetration Testing</li>
                 </ul>
