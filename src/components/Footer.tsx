@@ -82,10 +82,10 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Contact</h4>
             <div className="space-y-2">
               <a 
-                href="mailto:support@polaris.exchange"
+                href="mailto:support@polaris.io"
                 className="text-secondary-300 hover:text-white transition-colors block"
               >
-                support@polaris.exchange
+                support@polaris.io
               </a>
               <div className="text-secondary-400">
                 Licensed in Poland

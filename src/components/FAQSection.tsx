@@ -71,7 +71,7 @@ const FAQSection = () => {
         <div className="text-center mt-12">
           <p className="text-secondary-600 mb-4">Still have questions?</p>
           <a 
-            href="mailto:support@polaris.exchange"
+            href="mailto:support@polaris.io"
             className="text-primary-900 hover:text-primary-700 font-medium transition-colors"
           >
             Contact our support team

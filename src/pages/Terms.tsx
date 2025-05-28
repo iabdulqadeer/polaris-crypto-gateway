@@ -119,7 +119,7 @@ const Terms = () => {
               </p>
               <div className="bg-secondary-50 p-4 rounded-lg">
                 <p className="text-secondary-700 font-medium">Legal Department</p>
-                <p className="text-secondary-700">Email: legal@polaris.exchange</p>
+                <p className="text-secondary-700">Email: legal@polaris.io</p>
                 <p className="text-secondary-700">Vertamon SP Z O.O.</p>
                 <p className="text-secondary-700">Poland</p>
               </div>
