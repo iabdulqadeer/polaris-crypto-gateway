@@ -69,29 +69,34 @@ const FeaturesSection = () => {
         <div className="text-center space-y-8">
           <h3 className="text-2xl font-semibold text-secondary-900">Accepted Payment Methods</h3>
           <div className="flex justify-center items-center space-x-12 flex-wrap gap-6">
-            <div className="flex items-center space-x-2 px-4 py-2 bg-secondary-50 rounded-lg">
-              <div className="w-8 h-6 bg-blue-600 rounded flex items-center justify-center">
-                <span className="text-white text-xs font-bold">VISA</span>
+            {/* Visa */}
+            <div className="flex items-center space-x-3 px-4 py-2 bg-secondary-50 rounded-lg">
+              <div className="w-10 h-6 bg-blue-600 rounded flex items-center justify-center">
+                <span className="text-white text-xs font-bold tracking-wider">VISA</span>
               </div>
               <span className="text-sm font-medium text-secondary-700">Visa</span>
             </div>
             
-            <div className="flex items-center space-x-2 px-4 py-2 bg-secondary-50 rounded-lg">
-              <div className="w-8 h-6 bg-red-600 rounded flex items-center justify-center">
-                <span className="text-white text-xs font-bold">MC</span>
+            {/* MasterCard with official overlapping circles */}
+            <div className="flex items-center space-x-3 px-4 py-2 bg-secondary-50 rounded-lg">
+              <div className="relative w-10 h-6 flex items-center justify-center">
+                <div className="absolute w-4 h-4 bg-red-500 rounded-full left-0"></div>
+                <div className="absolute w-4 h-4 bg-yellow-400 rounded-full right-0"></div>
               </div>
-              <span className="text-sm font-medium text-secondary-700">MasterCard</span>
+              <span className="text-sm font-medium text-secondary-700">mastercard</span>
             </div>
             
-            <div className="flex items-center space-x-2 px-4 py-2 bg-secondary-50 rounded-lg">
-              <div className="w-8 h-6 bg-primary-600 rounded flex items-center justify-center">
+            {/* SEPA */}
+            <div className="flex items-center space-x-3 px-4 py-2 bg-secondary-50 rounded-lg">
+              <div className="w-10 h-6 bg-primary-600 rounded flex items-center justify-center">
                 <span className="text-white text-xs font-bold">SEPA</span>
               </div>
               <span className="text-sm font-medium text-secondary-700">SEPA</span>
             </div>
             
-            <div className="flex items-center space-x-2 px-4 py-2 bg-secondary-50 rounded-lg">
-              <div className="w-8 h-6 bg-secondary-700 rounded flex items-center justify-center">
+            {/* SWIFT */}
+            <div className="flex items-center space-x-3 px-4 py-2 bg-secondary-50 rounded-lg">
+              <div className="w-10 h-6 bg-secondary-700 rounded flex items-center justify-center">
                 <span className="text-white text-xs font-bold">SW</span>
               </div>
               <span className="text-sm font-medium text-secondary-700">SWIFT</span>

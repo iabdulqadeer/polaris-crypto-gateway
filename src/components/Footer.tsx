@@ -96,13 +96,19 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="text-sm text-secondary-400">Accepted Payment Methods</div>
               <div className="flex space-x-2">
-                <div className="w-6 h-4 bg-blue-600 rounded text-xs flex items-center justify-center">
-                  <span className="text-white font-bold text-[8px]">VISA</span>
+                {/* Visa */}
+                <div className="w-8 h-5 bg-blue-600 rounded text-xs flex items-center justify-center">
+                  <span className="text-white font-bold text-[9px] tracking-wider">VISA</span>
                 </div>
-                <div className="w-6 h-4 bg-red-600 rounded text-xs flex items-center justify-center">
-                  <span className="text-white font-bold text-[8px]">MC</span>
+                
+                {/* MasterCard with overlapping circles */}
+                <div className="relative w-8 h-5 flex items-center justify-center">
+                  <div className="absolute w-3 h-3 bg-red-500 rounded-full left-0.5"></div>
+                  <div className="absolute w-3 h-3 bg-yellow-400 rounded-full right-0.5"></div>
                 </div>
-                <div className="w-6 h-4 bg-primary-600 rounded text-xs flex items-center justify-center">
+                
+                {/* SEPA */}
+                <div className="w-8 h-5 bg-primary-600 rounded text-xs flex items-center justify-center">
                   <span className="text-white font-bold text-[8px]">SEPA</span>
                 </div>
               </div>
