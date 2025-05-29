@@ -39,6 +39,7 @@ const HeroSection = () => {
                 variant="outline"
                 size="lg"
                 className="border-primary-300 text-primary-900 hover:bg-primary-50 px-8 py-4 text-lg font-medium rounded-lg transition-all hover:scale-105"
+                onClick={() => window.open('/learn-more', '_self')}
               >
                 Learn More
               </Button>

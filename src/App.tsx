@@ -16,6 +16,7 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import CookiePolicy from "./pages/CookiePolicy";
 import GDPRCompliance from "./pages/GDPRCompliance";
 import Contact from "./pages/Contact";
+import LearnMore from "./pages/LearnMore";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/cookie-policy" element={<CookiePolicy />} />
           <Route path="/gdpr-compliance" element={<GDPRCompliance />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/learn-more" element={<LearnMore />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
