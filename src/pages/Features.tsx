@@ -109,7 +109,10 @@ const Features = () => {
               Join thousands of users who trust Palaris for their crypto and fiat needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-primary-900 hover:bg-primary-800 text-white px-8 py-4 rounded-lg font-medium transition-colors">
+              <button 
+                className="bg-primary-900 hover:bg-primary-800 text-white px-8 py-4 rounded-lg font-medium transition-colors"
+                onClick={() => window.open('https://app.palaris.io/register', '_self')}
+              >
                 Register Now
               </button>
               <button className="border border-primary-300 text-primary-900 hover:bg-primary-50 px-8 py-4 rounded-lg font-medium transition-colors">

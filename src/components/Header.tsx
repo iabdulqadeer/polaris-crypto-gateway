@@ -59,11 +59,13 @@ const Header = () => {
             <Button 
               variant="ghost" 
               className="text-secondary-700 hover:text-primary-900 hover:bg-primary-50"
+              onClick={() => window.open('https://app.palaris.io/login', '_self')}
             >
               Login
             </Button>
             <Button 
               className="bg-primary-900 hover:bg-primary-800 text-white font-medium px-6"
+              onClick={() => window.open('https://app.palaris.io/register', '_self')}
             >
               Register
             </Button>
@@ -115,8 +117,19 @@ const Header = () => {
                 Security
               </button>
               <div className="flex flex-col space-y-2 pt-2">
-                <Button variant="ghost" className="justify-start">Login</Button>
-                <Button className="bg-primary-900 hover:bg-primary-800 text-white justify-start">Register</Button>
+                <Button 
+                  variant="ghost" 
+                  className="justify-start"
+                  onClick={() => window.open('https://app.palaris.io/login', '_self')}
+                >
+                  Login
+                </Button>
+                <Button 
+                  className="bg-primary-900 hover:bg-primary-800 text-white justify-start"
+                  onClick={() => window.open('https://app.palaris.io/register', '_self')}
+                >
+                  Register
+                </Button>
               </div>
             </div>
           </div>

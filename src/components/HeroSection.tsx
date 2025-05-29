@@ -31,6 +31,7 @@ const HeroSection = () => {
               <Button 
                 size="lg"
                 className="bg-primary-900 hover:bg-primary-800 text-white px-8 py-4 text-lg font-medium rounded-lg transition-all hover:scale-105"
+                onClick={() => window.open('https://app.palaris.io/register', '_self')}
               >
                 Register Now
               </Button>
