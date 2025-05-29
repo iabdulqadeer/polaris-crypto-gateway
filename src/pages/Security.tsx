@@ -118,7 +118,7 @@ const Security = () => {
               Our security team is available to address any concerns or questions you may have.
             </p>
             <a 
-              href="mailto:security@polaris.io"
+              href="mailto:security@palaris.io"
               className="inline-flex items-center bg-primary-900 hover:bg-primary-800 text-white px-8 py-4 rounded-lg font-medium transition-colors"
             >
               <Shield className="w-5 h-5 mr-2" />

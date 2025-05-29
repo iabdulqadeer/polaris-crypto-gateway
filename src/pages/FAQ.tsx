@@ -16,7 +16,7 @@ const FAQ = () => {
               Frequently Asked <span className="text-primary-900">Questions</span>
             </h1>
             <p className="text-xl text-secondary-600">
-              Find answers to common questions about Polaris services, compliance, and platform features.
+              Find answers to common questions about Palaris services, compliance, and platform features.
             </p>
           </div>
         </section>

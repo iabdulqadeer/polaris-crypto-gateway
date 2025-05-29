@@ -21,7 +21,7 @@ const HeroSection = () => {
               </h1>
               
               <p className="text-xl text-secondary-600 leading-relaxed max-w-2xl">
-                Polaris is the digital gateway for regulated crypto and fiat services. 
+                Palaris is the digital gateway for regulated crypto and fiat services. 
                 Operated by Vertamon SP Z O.O., a fully licensed Polish VASP.
               </p>
             </div>

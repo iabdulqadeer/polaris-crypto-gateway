@@ -56,7 +56,7 @@ const Features = () => {
                 Powerful <span className="text-primary-900">Features</span> for Modern Finance
               </h1>
               <p className="text-xl text-secondary-600 max-w-3xl mx-auto">
-                Discover the comprehensive suite of tools and services that make Polaris the trusted choice for regulated crypto and fiat operations.
+                Discover the comprehensive suite of tools and services that make Palaris the trusted choice for regulated crypto and fiat operations.
               </p>
             </div>
           </div>
@@ -106,7 +106,7 @@ const Features = () => {
               Ready to Get Started?
             </h2>
             <p className="text-xl text-secondary-600 mb-8">
-              Join thousands of users who trust Polaris for their crypto and fiat needs.
+              Join thousands of users who trust Palaris for their crypto and fiat needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-primary-900 hover:bg-primary-800 text-white px-8 py-4 rounded-lg font-medium transition-colors">

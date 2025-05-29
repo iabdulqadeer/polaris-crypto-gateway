@@ -9,19 +9,19 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "What is Polaris?",
-      answer: "Polaris is the trade name of Vertamon SP Z O.O., a regulated Polish VASP offering secure fiat and crypto services."
+      question: "What is Palaris?",
+      answer: "Palaris is the trade name of Vertamon SP Z O.O., a regulated Polish VASP offering secure fiat and crypto services."
     },
     {
-      question: "Is Polaris licensed?",
-      answer: "Yes. Polaris operates under a Virtual Asset Service Provider (VASP) license issued in Poland."
+      question: "Is Palaris licensed?",
+      answer: "Yes. Palaris operates under a Virtual Asset Service Provider (VASP) license issued in Poland."
     },
     {
-      question: "What services does Polaris offer?",
+      question: "What services does Palaris offer?",
       answer: "Fiat onramp/offramp, SEPA payments, crypto wallet infrastructure, and regulatory compliance."
     },
     {
-      question: "Who can use Polaris?",
+      question: "Who can use Palaris?",
       answer: "Businesses and individuals (where legally allowed) excluding sanctioned jurisdictions."
     },
     {
@@ -47,7 +47,7 @@ const FAQSection = () => {
             Frequently Asked <span className="text-primary-900">Questions</span>
           </h2>
           <p className="text-xl text-secondary-600">
-            Everything you need to know about Polaris and our services
+            Everything you need to know about Palaris and our services
           </p>
         </div>
 
@@ -71,7 +71,7 @@ const FAQSection = () => {
         <div className="text-center mt-12">
           <p className="text-secondary-600 mb-4">Still have questions?</p>
           <a 
-            href="mailto:support@polaris.io"
+            href="mailto:support@palaris.io"
             className="text-primary-900 hover:text-primary-700 font-medium transition-colors"
           >
             Contact our support team

@@ -12,7 +12,7 @@ const Terms = () => {
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-secondary-900">Terms & Conditions</h1>
             <p className="text-xl text-secondary-600">
-              Terms of service for using the Polaris platform
+              Terms of service for using the Palaris platform
             </p>
             <div className="text-sm text-secondary-500">Last updated: December 2024</div>
           </div>
@@ -21,7 +21,7 @@ const Terms = () => {
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold text-secondary-900">1. Acceptance of Terms</h2>
               <p className="text-secondary-700 leading-relaxed">
-                By accessing or using the Polaris platform, you agree to the following terms and conditions. These terms constitute a legally binding agreement between you and Vertamon SP Z O.O.
+                By accessing or using the Palaris platform, you agree to the following terms and conditions. These terms constitute a legally binding agreement between you and Vertamon SP Z O.O.
               </p>
             </section>
 
@@ -119,7 +119,7 @@ const Terms = () => {
               </p>
               <div className="bg-secondary-50 p-4 rounded-lg">
                 <p className="text-secondary-700 font-medium">Legal Department</p>
-                <p className="text-secondary-700">Email: legal@polaris.io</p>
+                <p className="text-secondary-700">Email: legal@palaris.io</p>
                 <p className="text-secondary-700">Vertamon SP Z O.O.</p>
                 <p className="text-secondary-700">Poland</p>
               </div>

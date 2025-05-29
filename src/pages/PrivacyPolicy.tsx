@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold text-secondary-900">1. Introduction</h2>
               <p className="text-secondary-700 leading-relaxed">
-                This Privacy Policy explains how Polaris (Vertamon SP Z O.O.) collects, uses, and protects your personal data in accordance with the General Data Protection Regulation (GDPR).
+                This Privacy Policy explains how Palaris (Vertamon SP Z O.O.) collects, uses, and protects your personal data in accordance with the General Data Protection Regulation (GDPR).
               </p>
             </section>
 
@@ -95,7 +95,7 @@ const PrivacyPolicy = () => {
               </p>
               <div className="bg-secondary-50 p-4 rounded-lg">
                 <p className="text-secondary-700 font-medium">Privacy Officer</p>
-                <p className="text-secondary-700">Email: privacy@polaris.io</p>
+                <p className="text-secondary-700">Email: privacy@palaris.io</p>
                 <p className="text-secondary-700">Vertamon SP Z O.O.</p>
                 <p className="text-secondary-700">Poland</p>
               </div>

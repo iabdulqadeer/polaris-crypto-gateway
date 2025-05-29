@@ -22,7 +22,7 @@ const Header = () => {
               onClick={() => handleNavigation('/')}
               className="text-2xl font-bold text-primary-900 hover:text-primary-700 transition-colors"
             >
-              Polaris
+              Palaris
             </button>
           </div>
 

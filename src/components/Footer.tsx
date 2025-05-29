@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Polaris</h3>
+            <h3 className="text-2xl font-bold">Palaris</h3>
             <p className="text-secondary-300 leading-relaxed">
               Licensed Polish VASP providing secure crypto and fiat services with regulatory compliance.
             </p>
@@ -21,7 +21,7 @@ const Footer = () => {
 
           {/* About */}
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">About Polaris</h4>
+            <h4 className="text-lg font-semibold">About Palaris</h4>
             <ul className="space-y-2">
               <li>
                 <button 
@@ -102,10 +102,10 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Contact</h4>
             <div className="space-y-2">
               <a 
-                href="mailto:support@polaris.io"
+                href="mailto:support@palaris.io"
                 className="text-secondary-300 hover:text-white transition-colors block"
               >
-                support@polaris.io
+                support@palaris.io
               </a>
               <button 
                 onClick={() => navigate('/contact')}

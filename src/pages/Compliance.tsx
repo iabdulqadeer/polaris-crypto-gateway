@@ -134,7 +134,7 @@ const Compliance = () => {
               For questions about our compliance procedures or regulatory status, contact our compliance team.
             </p>
             <a 
-              href="mailto:compliance@polaris.io"
+              href="mailto:compliance@palaris.io"
               className="inline-flex items-center bg-primary-900 hover:bg-primary-800 text-white px-8 py-4 rounded-lg font-medium transition-colors"
             >
               <FileCheck className="w-5 h-5 mr-2" />

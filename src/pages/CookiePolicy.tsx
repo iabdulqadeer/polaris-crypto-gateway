@@ -131,7 +131,7 @@ const CookiePolicy = () => {
               </p>
               <div className="bg-secondary-50 p-4 rounded-lg">
                 <p className="text-secondary-700 font-medium">Privacy Team</p>
-                <p className="text-secondary-700">Email: privacy@polaris.io</p>
+                <p className="text-secondary-700">Email: privacy@palaris.io</p>
                 <p className="text-secondary-700">Vertamon SP Z O.O.</p>
                 <p className="text-secondary-700">Poland</p>
               </div>

@@ -172,7 +172,7 @@ const GDPRCompliance = () => {
                   Email us with your GDPR request and we'll respond within 30 days as required by law.
                 </p>
                 <a 
-                  href="mailto:gdpr@polaris.io"
+                  href="mailto:gdpr@palaris.io"
                   className="inline-flex items-center bg-primary-900 hover:bg-primary-800 text-white px-8 py-4 rounded-lg font-medium transition-colors"
                 >
                   <Shield className="w-5 h-5 mr-2" />
@@ -180,7 +180,7 @@ const GDPRCompliance = () => {
                 </a>
                 <div className="mt-6 pt-6 border-t border-secondary-200">
                   <p className="text-sm text-secondary-600">
-                    Email: gdpr@polaris.io<br/>
+                    Email: gdpr@palaris.io<br/>
                     Response Time: Within 30 days<br/>
                     Vertamon SP Z O.O., Poland
                   </p>

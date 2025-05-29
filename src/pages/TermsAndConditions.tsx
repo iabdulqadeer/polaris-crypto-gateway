@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-secondary-900">Terms & Conditions</h1>
             <p className="text-xl text-secondary-600">
-              Terms of service for using Polaris platform and services
+              Terms of service for using Palaris platform and services
             </p>
             <div className="text-sm text-secondary-500">Last updated: December 2024</div>
           </div>
@@ -21,14 +21,14 @@ const TermsAndConditions = () => {
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold text-secondary-900">1. Agreement to Terms</h2>
               <p className="text-secondary-700 leading-relaxed">
-                By accessing and using Polaris services operated by Vertamon SP Z O.O., you agree to be bound by these Terms and Conditions and all applicable laws and regulations.
+                By accessing and using Palaris services operated by Vertamon SP Z O.O., you agree to be bound by these Terms and Conditions and all applicable laws and regulations.
               </p>
             </section>
 
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold text-secondary-900">2. Service Description</h2>
               <p className="text-secondary-700 leading-relaxed">
-                Polaris provides virtual asset services including cryptocurrency custody, fiat onramp/offramp, SEPA transfers, and related financial services under Polish VASP licensing.
+                Palaris provides virtual asset services including cryptocurrency custody, fiat onramp/offramp, SEPA transfers, and related financial services under Polish VASP licensing.
               </p>
             </section>
 
@@ -109,7 +109,7 @@ const TermsAndConditions = () => {
               </p>
               <div className="bg-secondary-50 p-4 rounded-lg">
                 <p className="text-secondary-700 font-medium">Legal Department</p>
-                <p className="text-secondary-700">Email: legal@polaris.io</p>
+                <p className="text-secondary-700">Email: legal@palaris.io</p>
                 <p className="text-secondary-700">Vertamon SP Z O.O.</p>
                 <p className="text-secondary-700">Poland</p>
               </div>
