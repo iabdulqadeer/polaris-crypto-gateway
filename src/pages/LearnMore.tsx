@@ -1,4 +1,3 @@
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -9,7 +8,7 @@ const LearnMore = () => {
     <div className="min-h-screen bg-white font-inter">
       <Header />
       
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-secondary-900 mb-6">
@@ -160,16 +159,17 @@ const LearnMore = () => {
           </div>
         </section>
 
-        {/* Get Started */}
-        <section className="text-center bg-gradient-to-br from-primary-900 to-primary-800 rounded-2xl p-12 text-white">
-          <h2 className="text-3xl font-bold mb-6">Get Started with Palaris</h2>
-          <p className="text-xl mb-8 opacity-90">
+        {/* CTA Section */}
+        <section className="bg-primary-900 rounded-2xl p-8 md:p-12 text-center text-white">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Started with Palaris</h2>
+          <p className="text-xl mb-8 text-primary-100">
             Palaris helps you stay compliant, scale faster, and manage crypto and fiat in one secure platform.
           </p>
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              className="bg-white text-primary-900 hover:bg-gray-100 px-8 py-4 text-lg font-medium"
+              className="bg-white text-primary-900 hover:bg-primary-50 px-8 py-4 text-lg font-medium rounded-lg transition-all hover:scale-105"
               onClick={() => window.open('https://app.palaris.io/register', '_self')}
             >
               Register Now
@@ -177,7 +177,7 @@ const LearnMore = () => {
             <Button 
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-primary-900 px-8 py-4 text-lg font-medium"
+              className="border-white text-white bg-transparent hover:bg-white hover:text-primary-900 px-8 py-4 text-lg font-medium rounded-lg transition-all hover:scale-105"
               onClick={() => window.open('/contact', '_self')}
             >
               Contact Us
