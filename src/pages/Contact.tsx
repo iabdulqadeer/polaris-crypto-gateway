@@ -194,6 +194,8 @@ ${formData.message}
                     <div>
                       <h3 className="font-semibold text-secondary-900">Office Location</h3>
                       <p className="text-secondary-600">Vertamon SP Z O.O.</p>
+                      <p className="text-secondary-600">Ul. Piotrkowska 116/52</p>
+                      <p className="text-secondary-600">Lodz, Lodzkie 90-006</p>
                       <p className="text-secondary-600">Poland</p>
                       <p className="text-sm text-secondary-500">Licensed VASP Provider</p>
                     </div>
