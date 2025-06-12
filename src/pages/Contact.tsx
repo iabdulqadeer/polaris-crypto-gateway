@@ -27,7 +27,7 @@ Message:
 ${formData.message}
     `);
     
-    const mailtoLink = `mailto:support@polaris.io?subject=${emailSubject}&body=${emailBody}`;
+    const mailtoLink = `mailto:support@palaris.io?subject=${emailSubject}&body=${emailBody}`;
     window.location.href = mailtoLink;
     
     toast({
@@ -55,7 +55,7 @@ ${formData.message}
         <section className="bg-gradient-to-br from-primary-50 to-white py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-secondary-900 mb-6">
-              Contact <span className="text-primary-900">Polaris</span>
+              Contact <span className="text-primary-900">Palaris</span>
             </h1>
             <p className="text-xl text-secondary-600">
               Get in touch with our team for support, partnerships, or general inquiries.
@@ -160,7 +160,7 @@ ${formData.message}
                 <div>
                   <h2 className="text-2xl font-bold text-secondary-900 mb-6">Get in touch</h2>
                   <p className="text-secondary-600 leading-relaxed">
-                    Our team is here to help with any questions about Polaris services, technical support, or partnership opportunities.
+                    Our team is here to help with any questions about Palaris services, technical support, or partnership opportunities.
                   </p>
                 </div>
 
@@ -171,7 +171,7 @@ ${formData.message}
                     </div>
                     <div>
                       <h3 className="font-semibold text-secondary-900">Email Support</h3>
-                      <p className="text-secondary-600">support@polaris.io</p>
+                      <p className="text-secondary-600">support@palaris.io</p>
                       <p className="text-sm text-secondary-500">For general inquiries and support</p>
                     </div>
                   </div>
@@ -226,7 +226,7 @@ ${formData.message}
                     <a href="/compliance" className="block text-primary-900 hover:text-primary-700 transition-colors">
                       Compliance & Licensing
                     </a>
-                    <a href="mailto:partnerships@polaris.io" className="block text-primary-900 hover:text-primary-700 transition-colors">
+                    <a href="mailto:partnerships@palaris.io" className="block text-primary-900 hover:text-primary-700 transition-colors">
                       Partnership Inquiries
                     </a>
                   </div>
